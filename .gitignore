@@ -19,10 +19,51 @@ cmdavr.eep
 *.tmp
 *.map
 *.eep
+### Must present in repository
+!*.asm
+!*.aps
+###!*.bat
+###!*.txt
 
 
 
 ##################
 ## CodeVision
 #################
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+#
+*.rom
+*.cof
+*.fct
+#### *.txt
+# Linker
+*.al
+*.ol
+*.a
+*.o
+#List
+*.asm
+*.lst
+#Obj
+*.srt1
+*.sym1
+*.sym2
+*.sym3
+### Must present in repository 
+!*.c
+!*.h
+!*.prj
+!*.txt
+
 

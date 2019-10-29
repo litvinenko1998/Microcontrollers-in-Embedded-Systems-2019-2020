@@ -1,0 +1,28 @@
+##################
+## AvrStudio
+#################
+
+## Bad way with path
+lesson3/cmdavr.hex
+### Ignore For lesson3
+AvrBuild.bat
+cmdavr.hex
+cmdavr.obj
+labels.tmp
+cmdavr.hex
+cmdavr.map
+cmdavr.eep
+### Ignore For all projects
+*.bat
+*.hex
+*.obj
+*.tmp
+*.map
+*.eep
+
+
+
+##################
+## CodeVision
+#################
+

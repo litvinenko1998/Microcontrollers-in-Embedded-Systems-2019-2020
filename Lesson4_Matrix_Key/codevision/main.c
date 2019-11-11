@@ -35,7 +35,7 @@ brne lb2
 cp r18, r22
 brne lb2	
 jmp lb1
-lb2:				; мітка виходу з процедури
+lb2:	;exit  
 out $12, r22
 #endasm
 

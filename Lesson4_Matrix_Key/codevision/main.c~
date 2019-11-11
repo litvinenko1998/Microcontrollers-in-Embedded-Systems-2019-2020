@@ -24,10 +24,10 @@ out $02,r19
 lb1:
 out $03,r20 ; set 0 to PORTE.7
 nop
-in r17,$01 ; read PINE and write value to r17
-out $03,r21 ; set 0 to PORTE.7
+in r17,$01 ; read PINE and write value to r17 - save data from 
+out $03,r21 ; set 0 to PORTE.6
 nop
-in r18, $01    
+in r18, $01 ; read PINE and write value to r18  
 and r17, r22
 and r18,r22
 cp r17, r22
@@ -35,7 +35,7 @@ brne lb2
 cp r18, r22
 brne lb2	
 jmp lb1
-lb2:				; мітка виходу з процедури
+lb2:				;exit  
 out $12, r22
 #endasm
 

@@ -31,9 +31,10 @@ M1:
 cpi r20, 0
 BRNE M2
 out $12, r18
+JMP M3
 M2:
 out $12, r17
-nop
+M3:
 nop
 
 
